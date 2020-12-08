@@ -39,7 +39,7 @@ def __color__():
                 time.sleep(1)
                 print(Fore.BLUE + "[" + Fore.YELLOW + "*" + Fore.BLUE + "]" + Fore.GREEN + " ~ " + Fore.GREEN + "Pleass 1 Sec Latter ...")
                 time.sleep(1)
-                print(Fore.RED + matn)
+                print(Fore.BLUE + "\nYour Test Is :  " + Fore.RED + matn)
             except:
                 try:
                     time.sleep(2)
@@ -64,7 +64,7 @@ def __color__():
                 time.sleep(1)
                 print(Fore.BLUE + "[" + Fore.YELLOW + "*" + Fore.BLUE + "]" + Fore.GREEN + " ~ " + Fore.GREEN + "Pleass 1 Sec Latter ...")
                 time.sleep(1)
-                print(Fore.GREEN + matn)
+                print(Fore.YELLOW + "\nYour Test Is :  " + Fore.GREEN + matn)
             except:
                 try:
                     time.sleep(2)
@@ -89,7 +89,7 @@ def __color__():
                 time.sleep(1)
                 print(Fore.BLUE + "[" + Fore.YELLOW + "*" + Fore.BLUE + "]" + Fore.GREEN + " ~ " + Fore.GREEN + "Pleass 1 Sec Latter ...")
                 time.sleep(1)
-                print(Fore.BLUE + matn)
+                print(Fore.RED + "\nYour Test Is :  " + Fore.BLUE + matn)
             except:
                 try:
                     time.sleep(2)
@@ -115,7 +115,7 @@ def __color__():
                 time.sleep(1)
                 print(Fore.BLUE + "[" + Fore.YELLOW + "*" + Fore.BLUE + "]" + Fore.GREEN + " ~ " + Fore.GREEN + "Pleass 1 Sec Latter ...")
                 time.sleep(1)
-                print(Fore.YELLOW + matn)
+                print(Fore.GREEN + "\nYour Test Is :  " + Fore.YELLOW + matn)
             except:
                 try:
                     time.sleep(2)
