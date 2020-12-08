@@ -21,22 +21,7 @@ def __color__():
         print(Fore.YELLOW + "\n[4] - Color : YELLOW")
         time.sleep(0.3)
         color = int(input(Fore.GREEN + "\n[!] - Enter Your Number 1 ~ 4 ==> "))
-        if color == "" or None :
-            try:
-                time.sleep(1)
-                print(Fore.RED + "|n[*] - Error : Your Number Is Not Found ;(")
-                time.sleep(1)
-                sys.exit()
-            except:
-                pass
-        if clear >= 5:
-            try:
-                time.sleep(1)
-                print(Fore.RED + "\n[*] - Error : Your Number Is Not Found ;(")
-                time.sleep(1)
-                sys.exit()
-            except:
-                pass
+
         matn = input("\n[+] - Enter Your Text ==>  ")
 
         if color == 1:
@@ -139,6 +124,22 @@ def __color__():
                 except:
                     pass
         # __________
+        if color == "" or None :
+            try:
+                time.sleep(1)
+                print(Fore.RED + "|n[*] - Error : Your Number Is Not Found ;(")
+                time.sleep(1)
+                sys.exit()
+            except:
+                pass
+        if clear >= 5:
+            try:
+                time.sleep(1)
+                print(Fore.RED + "\n[*] - Error : Your Number Is Not Found ;(")
+                time.sleep(1)
+                sys.exit()
+            except:
+                pass
         else:
             try:
                 time.sleep(2)
